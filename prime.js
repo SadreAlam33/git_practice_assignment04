@@ -16,5 +16,10 @@ function checkprime(num)
 		return false;
 	}
 }
-
+let ans=checkprime(17);
+if(ans ==true){
+  console.log("prime")
+}else{
+  console.log("Not Prime")
+}
 
